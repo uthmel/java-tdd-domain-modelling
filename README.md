@@ -1,7 +1,10 @@
-# Java Template
+# Domain Modelling
 
 ## Learning Objectives
-- Example learning objective
+- Extract a Domain Model from User Stories
+- Use a Domain Model to create tests
+- Use tests to write source code
+- Explain the cycle of TDD and what is meant by Red, Green, Refactor
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
@@ -10,6 +13,14 @@
 - When ready to test your solution, open the `./src/test/java/com.booleanuk/core/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
 
 ![](./assets/run-a-test.PNG)
+
+## Exercises
+
+Your morning teacher will provide a demonstration before you start each section.
+
+[1. Extract domain models from user stories](./EXERCISE1.md)
+
+[2. Use the Red Green Refactor workflow to implement a solution](./EXERCISE2.md)
 
 ## Test Output
 
@@ -21,6 +32,6 @@ In the sample screenshot below, we've tried to complete the first step of the ex
 
 At the top, we see `expected: <32> but was: <33>`. This means the test expected the value to be 32, but the value the student provided was 33. We can see this in the code snippets at the top of the screenshot.
 
-In the stack trace itself, we see this line: `at app//com.booleanuk.core.ExerciseTest.shouldBeAged32(ExerciseTest.java:20)`. This is helpful! This tells us the exact line in the ExerciseTest.java file (line 20) where the failure happened, as well as the method name (shouldBeAged32), helping us to identify where the issue began. This is the kind of thing you need to look for; a relevant file name, method name, class name and line number to give you a good starting point for debugging.
+In the stack trace itself, we see this line: `at app//com.booleanuk.core.CohortManagerTest.shouldBeAged32(ExerciseTest.java:20)`. This is helpful! This tells us the exact line in the ExerciseTest.java file (line 20) where the failure happened, as well as the method name (shouldBeAged32), helping us to identify where the issue began. This is the kind of thing you need to look for; a relevant file name, method name, class name and line number to give you a good starting point for debugging.
 
 ![](./assets/test-failure.PNG)

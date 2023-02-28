@@ -17,10 +17,6 @@ Your morning teacher will provide a demonstration before you start each section.
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
 - Open the root directory of the project in IntelliJ
-- Implement the requirements listed in comments in the `./src/main/java/com.booleanuk/core/Exercise.java` file
-- When ready to test your solution, open the `./src/test/java/com.booleanuk/core/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
-
-![](./assets/run-a-test.PNG)
 
 ## Test Output
 

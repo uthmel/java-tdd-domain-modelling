@@ -6,14 +6,6 @@
 - Use tests to write source code
 - Explain the cycle of TDD and what is meant by Red, Green, Refactor
 
-## Set up instructions
-- Fork this repository and clone the forked version to your machine
-- Open the root directory of the project in IntelliJ
-- Implement the requirements listed in comments in the `./src/main/java/com.booleanuk/core/Exercise.java` file
-- When ready to test your solution, open the `./src/test/java/com.booleanuk/core/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
-
-![](./assets/run-a-test.PNG)
-
 ## Exercises
 
 Your morning teacher will provide a demonstration before you start each section.
@@ -21,6 +13,14 @@ Your morning teacher will provide a demonstration before you start each section.
 [1. Extract domain models from user stories](./EXERCISE1.md)
 
 [2. Use the Red Green Refactor workflow to implement a solution](./EXERCISE2.md)
+
+## Set up instructions
+- Fork this repository and clone the forked version to your machine
+- Open the root directory of the project in IntelliJ
+- Implement the requirements listed in comments in the `./src/main/java/com.booleanuk/core/Exercise.java` file
+- When ready to test your solution, open the `./src/test/java/com.booleanuk/core/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
+
+![](./assets/run-a-test.PNG)
 
 ## Test Output
 

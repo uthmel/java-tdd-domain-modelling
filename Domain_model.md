@@ -4,11 +4,11 @@ So that I can pay for products at checkout,
 I'd like to be able to know the total cost of items in my basket.
 ```
 
-| Classes  | Method               | Scenario            | Outputs    |
-|----------|----------------------|---------------------|------------|
-| `Basket` | `CalculateTotalCost` | If basket has items | Total cost |
-|          |                      | If no items         | 0          |
-|          |                      |                     |            |
+| Classes  | Method                             | Scenario            | Outputs    |
+|----------|------------------------------------|---------------------|------------|
+| `Basket` | `CalculateTotalCost(List<String>)` | If basket has items | Total cost |
+|          |                                    | If no items         | 0          |
+|          |                                    |                     |            |
 
 ```
 As an organised individual,
@@ -17,8 +17,8 @@ I'd like to see an itemised receipt that includes the name and price of the prod
 I bought as well as the quantity, and a total cost of my basket.
 ```
 
- Classes  | Method                    |Scenario            | Outputs                            |
-|----------|---------------------------|--------------------|------------------------------------|
-| `Basket` | `GetItemandPrice()`       | If basket has items | Gets all the items from the Basket |
-|          | `GetPriceofItem()`        | If basket has items | Gets price for the items           |
-|          | `GetQuantity()`           | If basket has items | Total cost                         |
+| Classes  | Method                                            | Scenario            | Outputs                            |
+|----------|---------------------------------------------------|---------------------|------------------------------------|
+| `Basket` | `GetItemandPrice(HashMap<String, Integer> items)` | If basket has items | Gets all the items from the Basket |
+|          | `GetQuantity()`                                   | If basket has items |                          |
+|          | `GetTotalPrice()`                                 |                     |Total cost                                  |
